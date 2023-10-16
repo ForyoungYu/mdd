@@ -11,6 +11,13 @@ import zipfile
 from six.moves import urllib
 
 
+def convert_arg_line_to_args(arg_line):
+    for arg in arg_line.split():
+        if not arg.strip():
+            continue
+        yield arg
+
+
 def readlines(filename):
     """Read all the lines in a text file and return as a list
     """

@@ -1,0 +1,10 @@
+--weights weights/yolov5s.pt
+--source 0
+--imgsz 640
+--device 0
+--classes 0 1 2 3 5 7
+--threshold 10.0
+--half
+--project runs/detect
+--name camera
+--hide-conf

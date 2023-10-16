@@ -1,0 +1,7 @@
+__pycache__/
+runs/
+videos/
+weights/
+.vscode/
+*.pt
+*.pth
